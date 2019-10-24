@@ -1,0 +1,8 @@
+name: torch-rl
+channels:
+  - conda-forge
+  - anaconda
+dependencies:
+  - pip
+  - pip:
+      - gym
