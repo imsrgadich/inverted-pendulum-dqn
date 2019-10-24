@@ -1,8 +1,10 @@
 name: torch-rl
 channels:
+  - pytorch
   - conda-forge
   - anaconda
 dependencies:
+  - torchvision
   - pip
   - pip:
       - gym
