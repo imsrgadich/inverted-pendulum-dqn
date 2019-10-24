@@ -7,3 +7,8 @@ Run this in the project root.
 ```bash
 conda env create -f environment.yml
 ```
+
+Update the environment using
+```bash
+conda env update -f environment.yml --prune
+```
